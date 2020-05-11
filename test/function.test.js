@@ -40,8 +40,8 @@ describe('Function', function(){
           param: { project: 'foo', device: 'bar', expire: 100 }
         }
       )
-      console.log(data)
       assert.strictEqual(data == undefined, false, 'should not be undefined');
+      assert.strictEqual(data.isOk, true, 'should be true');
     } catch (error) {
       throw error;
     }

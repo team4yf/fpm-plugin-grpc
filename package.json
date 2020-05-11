@@ -1,11 +1,11 @@
 {
   "name": "fpm-plugin-grpc",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "A Plugin Named [fpm-plugin-grpc] For YF-FPM-SERVER~",
   "main": "src/index.js",
   "scripts": {
-    "dev": "./node_modules/.bin/nodemon dev/dev.js",
-    "test": "./node_modules/.bin/mocha test/*.test.js"
+    "dev": "npx nodemon dev/dev.js",
+    "test": "npx mocha test/*.test.js"
   },
   "author": "yfsoftcom",
   "license": "ISC",
